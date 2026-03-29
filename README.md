@@ -52,29 +52,6 @@ Le cycle et ce qu'on en fait
 
 ---
 
-## Outils de génération
-
-### Audiobook
-```bash
-python generer_audiobook.py
-```
-Génère l'audiobook complet en utilisant Mistral TTS (Voxtral, voix FR Marie).
-
-**Configuration requise :**
-- Variable d'environnement `MISTRAL_API_KEY`
-- Dépendances : `httpx`, `wave`
-
-### PDF
-```bash
-python generer_pdf.py
-```
-Génère `tribu.pdf` avec couverture et mise en forme complète.
-
-**Configuration requise :**
-- Dépendances : `reportlab`, `PyPDF2`
-
----
-
 ## Sources et corpus
 
 Le projet inclut un corpus académique complet :
@@ -87,18 +64,6 @@ Le projet inclut un corpus académique complet :
 - Will Storr — *The Status Game*
 - Christopher Boehm — *Hierarchy in the Forest*
 - Joseph Henrich et al. — *Two Ways to the Top*
-
----
-
-## Auteur
-
-**Antoine**
-
----
-
-## Licence
-
-© Antoine, 2026. Tous droits réservés.
 
 ---
 
